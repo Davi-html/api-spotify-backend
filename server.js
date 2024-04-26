@@ -2,9 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const server = express()
 const routes = require('./src/routes')
-const config = require('./config')
 
-server.use(config)
 server.use(express.urlencoded({ extended: true }))
 server.use(express.json())
 

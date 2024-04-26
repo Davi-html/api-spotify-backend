@@ -19,7 +19,7 @@ exports.index = async function handler(req, res) {
   const title = song.item.name;
   const images = song.item.album.images[1];
   const artists = song.item.artists.map((_artists) => _artists.name).join(', ');
-  const album = song.item.album_name
+  const album = song.item.album.name
 
   res.setHeader(
     'Cache-Control',

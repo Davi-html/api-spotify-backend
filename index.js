@@ -11,7 +11,7 @@ const getAcessToken = async ()=>{
         method: 'POST',
         headers: {
             Authorization: `Basic ${basic}`,
-            'Content-Type': 'application/x-www-form-urlencoded' 
+            'Content-Type': 'application/x-www-form-urlencoded',
         },
         body: new URLSearchParams({
             grant_type: 'refresh_token',

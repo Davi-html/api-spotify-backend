@@ -50,3 +50,8 @@ After creating the .env file you need to add
 ```bash
   $ npm run dev
 ```
+
+## Spotify documentation
+
+ - https://developer.spotify.com/documentation/web-api
+
